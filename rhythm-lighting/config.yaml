@@ -3,7 +3,7 @@ name: Rhythm Lighting
 version: "4.2.024-alpha"
 image: dtconcepts/rhythm-lighting-addon
 slug: rhythm
-description: Connects to Home Assistant WebSocket API and listens for switch events
+description: Adaptive lighting that follows the sun
 url: "https://github.com/sticktrk/rhythm-lighting"
 arch:
   - armv7
@@ -21,9 +21,3 @@ host_network: true
 panel_icon: mdi:lightbulb
 panel_title: Rhythm Lighting
 panel_admin: false
-options:
-  manage_integration: true
-  manage_blueprints: true
-schema:
-  manage_integration: bool
-  manage_blueprints: bool
