@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Rhythm Lighting
-version: "0.1.144"
+version: "0.1.145"
 image: dtconcepts/rhythm-lighting-addon
 slug: rhythm
 description: Adaptive lighting that follows the sun
