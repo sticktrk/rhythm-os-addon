@@ -21,14 +21,6 @@ Adaptive lighting that follows the sun. Automatically adjusts brightness and col
 - Switch integration via ZHA events and Rhythm Lighting services
 - Works with ZigBee, Z-Wave, WiFi, and Matter lights
 
-## Configuration
-
-The add-on auto-configures from Home Assistant (location, timezone, API token). Use the Light Designer UI for curve and room settings.
-
-## Custom Integration
-
-For service-based control in automations, also install the [Rhythm Lighting Integration](https://github.com/sticktrk/rhythm-lighting-integration) via HACS.
-
 ## More Info
 
 - [Main repository](https://github.com/sticktrk/rhythm-lighting)
