@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Rhythm Lighting
-version: "0.1.174"
+version: "0.1.203"
 image: dtconcepts/rhythm-lighting-addon
 slug: rhythm
 description: Adaptive lighting that follows the sun
@@ -14,10 +14,4 @@ auth_api: true
 homeassistant_api: true
 map:
   - config:rw
-ingress: true
-ingress_port: 39821
-ingress_entry: /
 host_network: true
-panel_icon: mdi:lightbulb
-panel_title: Rhythm Lighting
-panel_admin: false
